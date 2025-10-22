@@ -77,9 +77,7 @@ const Contact = () => {
                 <div>
                   <h5 className="mb-0">LinkedIn</h5>
                   <p className="mb-0">
-                    <a href="www.linkedin.com/in/shivam-soni-43661a242" target="_blank" rel="noopener noreferrer">
-                      linkedin.com/in/shivam-soni-43661a242
-                    </a>
+                    <a href="https://www.linkedin.com/in/shivam-soni-43661a242/" target="_blank" rel="noopener noreferrer">linkedin.com/in/shivam-soni-43661a242</a>
                   </p>
                 </div>
               </div>
