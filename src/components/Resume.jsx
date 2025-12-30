@@ -3,6 +3,9 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaDownload } from 'react-icons/fa';
 import styled from 'styled-components';
 
+// Import the local PDF from src/assets - update the filename if yours is different
+import resumePDF from '../assets/ShivamSoni-Resume1.pdf';
+
 const ResumeContainer = styled(Container)`
   min-height: 100vh;
   padding: 0;
@@ -24,8 +27,6 @@ const PDFFrame = styled.iframe`
 `;
 
 const Resume = () => {
-  const googleDriveFileId = "1LLD8J-0uSgWdTQt6y-yvURRzaAhodMBK"; // replace with your actual file ID
-
   return (
     <ResumeContainer className="section">
       <Row className="mb-4">
@@ -37,8 +38,8 @@ const Resume = () => {
       <Row className="mb-4">
         <Col lg={8} className="mx-auto text-center">
           <Button 
-            href={`https://drive.google.com/uc?export=download&id=${googleDriveFileId}`} 
-            download="ShivamSoni-Resume1.pdf"
+            href={resumePDF} 
+            download=""ShivamSoni-Resume1.pdf
             variant="primary" 
             size="lg" 
             className="resume-download-btn"
@@ -51,7 +52,7 @@ const Resume = () => {
       <Row>
         <Col lg={9} className="mx-auto">
           <PDFFrame
-            src={`https://drive.google.com/file/d/${googleDriveFileId}/preview`}
+            src={resumePDF}
             title="Shivam's Resume"
             allow="autoplay"
           />
