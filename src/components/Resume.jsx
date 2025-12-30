@@ -24,7 +24,7 @@ const PDFFrame = styled.iframe`
 `;
 
 const Resume = () => {
-  const googleDriveFileId = "1jcNd-sgCKZvfYcHTWDNexj90ZALy2Xwd"; // replace with your actual file ID
+  const googleDriveFileId = "1LLD8J-0uSgWdTQt6y-yvURRzaAhodMBK"; // replace with your actual file ID
 
   return (
     <ResumeContainer className="section">
