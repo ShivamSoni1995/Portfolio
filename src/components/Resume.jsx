@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload, FaExternalLinkAlt } from 'react-icons/fa';
 import styled from 'styled-components';
 
-// Import the local PDF from src/assets - update the filename if yours is different
-import resumePDF from '../assets/ShivamSoni-Resume1.pdf';
+// Google Drive resume links
+const RESUME_VIEW_URL = 'https://drive.google.com/file/d/12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz/preview';
+const RESUME_DOWNLOAD_URL = 'https://drive.google.com/uc?export=download&id=12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz';
+const RESUME_OPEN_URL = 'https://drive.google.com/file/d/12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz/view?usp=sharing';
 
 const ResumeContainer = styled(Container)`
   min-height: 100vh;
@@ -38,13 +40,22 @@ const Resume = () => {
       <Row className="mb-4">
         <Col lg={8} className="mx-auto text-center">
           <Button 
-            href={resumePDF} 
-            download="ShivamSoni-Resume1.pdf"
+            href={RESUME_DOWNLOAD_URL} 
             variant="primary" 
+            size="lg" 
+            className="resume-download-btn me-3"
+          >
+            <FaDownload className="me-2" /> Download Resume
+          </Button>
+          <Button 
+            href={RESUME_OPEN_URL} 
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="outline-primary" 
             size="lg" 
             className="resume-download-btn"
           >
-            <FaDownload className="me-2" /> Download Resume
+            <FaExternalLinkAlt className="me-2" /> Open in Google Drive
           </Button>
         </Col>
       </Row>
@@ -52,7 +63,7 @@ const Resume = () => {
       <Row>
         <Col lg={9} className="mx-auto">
           <PDFFrame
-            src={resumePDF}
+            src={RESUME_VIEW_URL}
             title="Shivam's Resume"
             allow="autoplay"
           />
