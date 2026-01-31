@@ -39,7 +39,7 @@ const Resume = () => {
         <Col lg={8} className="mx-auto text-center">
           <Button 
             href={resumePDF} 
-            download=""ShivamSoni-Resume1.pdf
+            download="ShivamSoni-Resume1.pdf"
             variant="primary" 
             size="lg" 
             className="resume-download-btn"
