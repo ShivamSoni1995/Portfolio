@@ -273,8 +273,8 @@ a,
 
 /* === NEW ADDED STYLES for btn-primary.cta-button.glow-button on dark theme === */
 [data-theme='dark'] .btn-primary.cta-button.glow-button {
-  background-color: transparent !important;
-  border: 2px solid var(--accent-color) !important;
+  background-color: #C9A0DC !important;
+  border: 2px solid #C9A0DC !important;
   color: #fff !important;
   box-shadow: 0 0 8px var(--accent-color);
   transition: background-color var(--transition-speed), border-color var(--transition-speed), box-shadow var(--transition-speed), color var(--transition-speed);
@@ -282,12 +282,27 @@ a,
 
 [data-theme='dark'] .btn-primary.cta-button.glow-button:hover,
 [data-theme='dark'] .btn-primary.cta-button.glow-button:focus {
-  background-color: rgba(201, 160, 220, 0.25) !important; /* translucent pale mauve */
-  border-color: #ffffff !important;  /* white border */
-  box-shadow: 0 0 5px #ffffff !important; /* white glow */
-  color: #ffffff !important;
+  background-color: #ffffff !important;
+  border-color: #C9A0DC !important;
+  box-shadow: 0 0 12px #C9A0DC !important;
+  color: #C9A0DC !important;
   outline: none !important;
   opacity: 1 !important;
+}
+
+/* Dark theme View Resume button */
+[data-theme='dark'] .hero-section .btn-outline-light,
+[data-theme='dark'] .hero-section .btn-outline-dark {
+  background-color: transparent !important;
+  color: #C9A0DC !important;
+  border: 2px solid #C9A0DC !important;
+}
+
+[data-theme='dark'] .hero-section .btn-outline-light:hover,
+[data-theme='dark'] .hero-section .btn-outline-dark:hover {
+  background-color: #C9A0DC !important;
+  color: #ffffff !important;
+  border-color: #C9A0DC !important;
 }
 /* General button styling - Purple background initially */
 .btn-outline-light,
@@ -330,15 +345,15 @@ a,
 .hero-section .btn-outline-light,
 .hero-section .btn-outline-dark {
   background-color: transparent !important;
-  color: #212529 !important;
+  color: #C9A0DC !important;
   border: 2px solid #C9A0DC !important;
 }
 
 /* Hover: white background and purple text */
 .hero-section .btn-outline-light:hover,
 .hero-section .btn-outline-dark:hover {
-  background-color: #ffffff !important;
-  color: #C9A0DC !important;
+  background-color: #C9A0DC !important;
+  color: #ffffff !important;
   border-color: #C9A0DC !important;
 }
 
