@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.34c50b65.css",
-    "main.js": "/Portfolio/static/js/main.aeaa77f4.js",
+    "main.js": "/Portfolio/static/js/main.1e745b17.js",
     "static/js/453.cb5c2943.chunk.js": "/Portfolio/static/js/453.cb5c2943.chunk.js",
     "static/media/profile-photo.jpg": "/Portfolio/static/media/profile-photo.4433f714abbb0a2d7549.jpg",
-    "static/media/ShivamSoni-Resume1.pdf": "/Portfolio/static/media/ShivamSoni-Resume1.0553e7eb36e8a9d3c914.pdf",
     "index.html": "/Portfolio/index.html",
     "main.34c50b65.css.map": "/Portfolio/static/css/main.34c50b65.css.map",
-    "main.aeaa77f4.js.map": "/Portfolio/static/js/main.aeaa77f4.js.map",
+    "main.1e745b17.js.map": "/Portfolio/static/js/main.1e745b17.js.map",
     "453.cb5c2943.chunk.js.map": "/Portfolio/static/js/453.cb5c2943.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34c50b65.css",
-    "static/js/main.aeaa77f4.js"
+    "static/js/main.1e745b17.js"
   ]
 }
