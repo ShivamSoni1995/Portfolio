@@ -4,9 +4,9 @@ import { FaDownload, FaExternalLinkAlt } from 'react-icons/fa';
 import styled from 'styled-components';
 
 // Google Drive resume links
-const RESUME_VIEW_URL = 'https://drive.google.com/file/d/12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz/preview';
-const RESUME_DOWNLOAD_URL = 'https://drive.google.com/uc?export=download&id=12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz';
-const RESUME_OPEN_URL = 'https://drive.google.com/file/d/12cj0wAJDPnY2HCqfYBUMZTDW1XxLp9Mz/view?usp=sharing';
+const RESUME_VIEW_URL = 'https://drive.google.com/file/d/1hWptkCrBDJArRkm8m2KQrSLwDBrP-YCU/preview';
+const RESUME_DOWNLOAD_URL = 'https://drive.google.com/uc?export=download&id=1hWptkCrBDJArRkm8m2KQrSLwDBrP-YCU';
+const RESUME_OPEN_URL = 'https://drive.google.com/file/d/1hWptkCrBDJArRkm8m2KQrSLwDBrP-YCU/view?usp=sharing';
 
 const ResumeContainer = styled(Container)`
   min-height: 100vh;
