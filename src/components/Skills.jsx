@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import { Container, Row, Col, Card, Carousel } from 'react-bootstrap';
 import { 
   FaJenkins, FaGithub, FaDocker, FaAws, 
-  FaTerminal, FaCode, FaLock 
+  FaTerminal, FaCode, FaLock, FaMicrosoft, FaGoogle 
 } from 'react-icons/fa';
 import { SiKubernetes, SiTerraform, SiAnsible, SiPrometheus, SiGrafana } from 'react-icons/si';
 import styled from 'styled-components';
@@ -163,7 +163,9 @@ const Skills = () => {
     {
       title: "Cloud Platforms",
       skills: [
-        { name: "AWS", icon: <FaAws /> }
+        { name: "AWS", icon: <FaAws /> },
+        { name: "Azure", icon: <FaMicrosoft /> },
+        { name: "Google Cloud", icon: <FaGoogle /> }
       ]
     },
     {

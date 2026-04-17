@@ -168,24 +168,24 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Cloud-Native Resource Monitoring App",
+      title: "Cloud-Native Bookstore App",
       description: "Built a real-time system metrics dashboard using Flask and psutil.",
       tags: ["Kubernetes", "Flask", "Python", "Containerd"],
-      github: "https://github.com/apurvagargote/Cloud-native-monitoring-app",
+      github: "https://github.com/ShivamSoni1995/EKS-Bookstore-App.git",
       outcomes: "Deployed on Kubernetes (KIND) using Containerd; improved setup efficiency by 40% and optimized system responsiveness to 300ms under 100+ concurrent test requests."
     },
     {
-      title: "Node.js ToDo App with CI/CD Pipeline",
+      title: "Microservices based Gaming Platform",
       description: "Designed and automated a full CI/CD pipeline using Jenkins and GitHub Webhooks.",
       tags: ["Node.js", "Jenkins", "Docker", "AWS EC2", "GitHub Webhooks"],
-      github: "https://github.com/apurvagargote/Node-todo-cicd",
+      github: "https://github.com/ShivamSoni1995/DevOps-Home-Lab-2026-2027.git",
       outcomes: "Reduced deployment time by 53% (15min → 7min); maintained 95% build success rate and enabled zero-downtime releases using Docker and Nginx reverse proxy on AWS EC2."
     },
     {
-      title: "Two-Tier Flask Web App on Kubernetes",
+      title: "Flask Web-App",
       description: "Deployed a Flask–MySQL app on Kubernetes with persistent volumes and service discovery.",
       tags: ["Flask", "MySQL", "Kubernetes", "Containerd", "AWS"],
-      github: "https://github.com/apurvagargote/two-tier-flask-app",
+      github: "https://github.com/ShivamSoni1995/Flask-PostgreSQL.git",
       outcomes: "Configured 3 services, 2 PVCs, and horizontal pod autoscaling for scalability and ensured 99.9% uptime through resilient deployment and AWS-based network security."
     }
   ];

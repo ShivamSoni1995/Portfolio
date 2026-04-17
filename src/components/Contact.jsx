@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Card, Alert } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { BsMedium } from 'react-icons/bs';
 import { sendEmail } from '../services/emailService';
 
 const Contact = () => {
@@ -77,7 +78,17 @@ const Contact = () => {
                 <div>
                   <h5 className="mb-0">LinkedIn</h5>
                   <p className="mb-0">
-                    <a href="https://www.linkedin.com/in/shivam-soni-43661a242/" target="_blank" rel="noopener noreferrer">linkedin.com/in/shivam-soni-43661a242</a>
+                    <a href="https://linkedin.com/in/shivam-soni-devops" target="_blank" rel="noopener noreferrer">linkedin.com/in/shivam-soni-devops</a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="d-flex align-items-center mb-4">
+                <BsMedium className="me-3 text-primary" size={24} />
+                <div>
+                  <h5 className="mb-0">Medium</h5>
+                  <p className="mb-0">
+                    <a href="https://medium.com/@shivtrent800" target="_blank" rel="noopener noreferrer">medium.com/@shivtrent800</a>
                   </p>
                 </div>
               </div>
