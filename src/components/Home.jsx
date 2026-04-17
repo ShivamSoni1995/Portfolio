@@ -1,7 +1,6 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import styled from 'styled-components';
-import { ThemeContext } from '../context/ThemeContext';
 import { FaJenkins, FaDocker, FaAws, FaChartLine } from 'react-icons/fa';
 import { SiTerraform } from 'react-icons/si';
 import profilePhoto from '../assets/profile-photo.jpg'; // Add your photo to assets folder
@@ -85,7 +84,6 @@ const SkillIconContainer = styled.div`
 
 
 const Home = () => {
-  const { isDarkMode } = useContext(ThemeContext);
 
   useEffect(() => {
     // Reveal animation on scroll
